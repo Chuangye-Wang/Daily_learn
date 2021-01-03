@@ -1,4 +1,4 @@
-Print a calendar of one month based on the given month and year in Gregorian time.
+Print a calendar of one month based on the given month and year in Gregorian time. This code refers to the codes in java. Details are listed in the link https://introcs.cs.princeton.edu/java/21function/Calendar.java.html.
 
 Run this .py file in command lines.
 
