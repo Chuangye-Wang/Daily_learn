@@ -2,4 +2,4 @@ Print a calendar of one month based on the given month and year in Gregorian tim
 
 Run this .py file in command lines.
 
-python calendar.py 1 2021
+example command: python calendar.py 1 2021
