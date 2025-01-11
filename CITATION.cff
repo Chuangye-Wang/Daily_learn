@@ -1,0 +1,24 @@
+abstract: A resource for learning Python.
+authors:
+  - affiliation: QuesTek Innovations
+    family-names: Wang
+    given-names: Chuangye
+    orcid: https://orcid.org/0000-0001-6858-7432
+contributors:
+cff-version: 1.3.0
+date-released: 2025-01-11
+version: 0.0.0
+keywords:
+    - bibliography
+  - BibTeX
+  - cff
+  - citation
+  - CITATION.cff
+references:
+  -  authors:
+      - affiliation: QuesTek Innovations
+        family-names: Wang
+        given-names: Chuangye
+        orcid: https://orcid.org/0000-0001-6858-7432
+    keywords:
+      - Python
