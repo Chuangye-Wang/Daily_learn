@@ -1,3 +1,3 @@
-# Practical-programming
+# Never stop learning.
 
-Useful and interesting applications by python programming.
+Practical knowledge and applications using python programming.
