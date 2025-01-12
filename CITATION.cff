@@ -10,11 +10,9 @@ date-released: 2025-01-11
 title: Python knowledge
 version: 0.0.0
 keywords:
-  - bibliography
-  - BibTeX
-  - cff
   - citation
-  - CITATION.cff
+  - python
+  - software
 references:
   - authors:
       - affiliation: QuesTek Innovations
