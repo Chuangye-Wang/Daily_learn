@@ -9,7 +9,7 @@ def replace_text(dir_path, from_text, to_text, file_type=".py"):
     # Except using "r" and "w+" mode; writing to a file using "r+" mode.
     with open(file, "r+", encoding="utf-8") as f:
         lines = f.readlines()
-        f.seek(0)  # find the beginning of the file.
+        f.seek(0)  # set the file's cursor at the beginning of the file.
         f.truncate()  # truncate all content in the file.
         updated_lines = [line.replace(from_text, to_text) for line in lines]
         f.writelines(updated_lines)  # write new content to the file.
