@@ -32,7 +32,7 @@ def time_checker(func):
     return wrapper
 
 
-@functools.lru_cache(maxsize=1500)
+@functools.lru_cache(maxsize=1500, typed=True)
 def fibonacci_cache(n: int) -> int:
     """Calculate the nth Fibonacci number using memoization.
 
@@ -74,6 +74,7 @@ def fibonacci_dp(n: int) -> int:
 def test_fibonacci_cache():
     sys.setrecursionlimit(1500)
     time_checker(func=fibonacci_cache)(500)
+    print(fibonacci_cache.cache_info())  # Display cache statistics
 
 
 def test_fibonacci_no_cache():
