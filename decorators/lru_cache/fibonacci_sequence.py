@@ -76,6 +76,11 @@ def test_fibonacci_cache():
     time_checker(func=fibonacci_cache)(500)
     print(fibonacci_cache.cache_info())  # Display cache statistics
 
+    print("Run second time to see the cache effect.")
+    time_checker(func=fibonacci_cache)(500)
+    print(fibonacci_cache.cache_info())  # Display cache statistics
+    # misses does not change, hits increase 1 as it reuses argument input of 500.
+
 
 def test_fibonacci_no_cache():
     # very slow due to many repetitive calculations
