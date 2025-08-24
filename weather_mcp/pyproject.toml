@@ -1,0 +1,10 @@
+[project]
+name = "weather"
+version = "0.1.0"
+description = "Weather mcp"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "httpx",
+    "mcp"
+]
